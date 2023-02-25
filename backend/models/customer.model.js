@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 
 const schema = mongoose.Schema;
 
-const customerSchema = new mongoose.Schema({
-    username:{
+const customerSchema = new schema({
+    customername:{
         type: String,
         required: true,
         unique: true,
